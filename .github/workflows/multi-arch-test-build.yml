@@ -15,9 +15,9 @@ jobs:
             target: mt7620
             
           - arch: arm_cortex-a15_neon-vfpv4
-            target: ipq806x
+            target: arm_cortex-a15_neon-vfpv4
             
-          - arch: aarch64_cortex-a53
+          - arch: aarch64_generic
             target: aarch64_generic
 
           - arch: x86_64
